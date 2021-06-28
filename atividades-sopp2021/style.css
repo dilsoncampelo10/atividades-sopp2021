@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body{
+    font: normal 1.5em Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+#cabecalho{
+    background-color: #19FF5E;
+    padding: 1em;
+}
+#menu{
+    text-align: right;
+    margin-top: -70px;
+}
+#menu li{
+    display: inline-block;
+    padding: 10px;
+    
+}
+#menu a{
+    text-decoration: none;
+    color: #034617;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#menu a:hover{
+    color: #3dc46a;
+    text-decoration: underline;
+}
+#secao{
+    margin: 16px;
+    width: 600px;
+    padding: 2px;
+}
+#secao p{
+    text-align: justify;
+    line-height: 42px;
+}
+#rodape {
+    margin-top: 150px;
+    text-align: center;
+}
+#rodape a{
+    text-decoration: none;
+    color: #034617;
+}
